@@ -40,6 +40,54 @@
     color: red;
     cursor: pointer;
 }
-/* .card:hover{
-    transform: scale(1.1);
-} */
+
+/* tablet */
+@media   (min-width: 768px) {
+	
+}
+ 
+ /* pc */
+@media (min-width: 1024px) {
+    .card{
+ width: 150px;
+ height: 190px;
+ padding: 25px;
+ background-color: blueviolet;
+ color: white;
+ border: solid black;
+ display: flex;
+ flex-direction: column;
+
+}
+.card__imajen{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ align-items: center;
+ border: solid black;
+}
+.card__texto{
+    margin: 1px 0;
+}
+.card__texto__nombre{
+    margin: 25px 0;
+
+    font-size: 1.2em;
+}
+.card__texto__foter{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline
+}
+.card__texto__precio{
+
+}
+.card__texto__eliminar{
+    width: 25px;
+}
+.card__texto__eliminar:hover{
+    color: red;
+    cursor: pointer;
+}
+}

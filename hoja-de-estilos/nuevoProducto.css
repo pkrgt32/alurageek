@@ -1,7 +1,7 @@
 .nuevoProducto{
     display: flex;
     flex-direction: column;
-    width: 25%;
+    padding: 15px;
     gap: 35px;
 }
 .nuevoProducto__titulo{
@@ -30,7 +30,7 @@
     
 }
 .nuevoProducto__botones{
-    width: 150px;
+    width: 125px;
     height: 50px;
     font-size: 2em;
 }
@@ -47,4 +47,37 @@
 .nuevoProducto__botones--color{
     background-color: blue;
     color: white;
+}
+
+
+/* tablet */
+@media   (min-width: 768px) {
+	.nuevoProducto__contenedor__borones{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 30px;
+        
+    }
+}
+ 
+ /* pc */
+@media (min-width: 1024px) {
+    .nuevoProducto{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        gap: 35px;
+    }
+    .nuevoProducto__botones{
+        width: 150px;
+        height: 50px;
+        font-size: 2em;
+    }
+    .nuevoProducto__contenedor__borones{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
 }

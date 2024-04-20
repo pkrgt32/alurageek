@@ -8,6 +8,7 @@
 
 .contenedor__prinsiparl{
     display: flex;
+	flex-direction: column-reverse;
     justify-content: space-around;
     padding: 60px 0 ;
   
@@ -16,4 +17,17 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+/* tablet */
+@media   (min-width: 768px) {
+	.contenedor__prinsiparl{
+		
+ 	}
+}
+ 
+ /* pc */
+@media (min-width: 1024px) {
+	.contenedor__prinsiparl{
+		flex-direction: row;
+ 	}
 }

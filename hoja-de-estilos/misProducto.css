@@ -1,15 +1,10 @@
-.misProducto{
- width: 50%;
- height: 460px;
 
-}
 .misProducto__titulo{
  font-size: 2em;
  margin-bottom: 15px;
 }
 .misProducto__contenedor__card{
-    width: 100%;
-    height: 100%;
+    height: 460px;
     border: solid black;
     overflow: auto;
     padding: 25px;
@@ -17,4 +12,31 @@
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 55px;
+}
+@media   (min-width: 768px) {
+
+}
+ 
+ /* pc */
+@media (min-width: 1024px) {
+    .misProducto{
+        width: 50%;
+        height: 460px;
+       
+       }
+       .misProducto__titulo{
+        font-size: 2em;
+        margin-bottom: 15px;
+       }
+       .misProducto__contenedor__card{
+           width: 100%;
+           height: 100%;
+           border: solid black;
+           overflow: auto;
+           padding: 25px;
+           display: flex;
+           flex-wrap: wrap;
+           align-content: flex-start;
+           gap: 55px;
+       }
 }
