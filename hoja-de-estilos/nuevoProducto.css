@@ -30,13 +30,12 @@
     
 }
 .nuevoProducto__botones{
-    width: 250px;
+    width: 150px;
     height: 50px;
     font-size: 2em;
 }
 .nuevoProducto__botones:hover{
     cursor: pointer;
-    opacity: 84%;
     box-shadow: 0 3px #000000;
     top: 1px;
 }

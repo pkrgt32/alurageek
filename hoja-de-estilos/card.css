@@ -18,10 +18,10 @@
  border: solid black;
 }
 .card__texto{
-    margin: 15px 0;
+    margin: 1px 0;
 }
 .card__texto__nombre{
-    margin: 15px 0;
+    margin: 25px 0;
 
     font-size: 1.2em;
 }
@@ -36,3 +36,10 @@
 .card__texto__eliminar{
     width: 25px;
 }
+.card__texto__eliminar:hover{
+    color: red;
+    cursor: pointer;
+}
+/* .card:hover{
+    transform: scale(1.1);
+} */
