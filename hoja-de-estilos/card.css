@@ -1,0 +1,38 @@
+.card{
+ width: 150px;
+ height: 190px;
+ padding: 25px;
+ background-color: blueviolet;
+ color: white;
+ border: solid black;
+ display: flex;
+ flex-direction: column;
+
+}
+.card__imajen{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ align-items: center;
+ border: solid black;
+}
+.card__texto{
+    margin: 15px 0;
+}
+.card__texto__nombre{
+    margin: 15px 0;
+
+    font-size: 1.2em;
+}
+.card__texto__foter{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline
+}
+.card__texto__precio{
+
+}
+.card__texto__eliminar{
+    width: 25px;
+}
