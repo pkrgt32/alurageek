@@ -15,6 +15,15 @@
         "nombre": "papel picado",
         "imagen": "https://img.freepik.com/vector-gratis/concepto-coleccion-empavesado-mexicano_23-2148479001.jpg?w=826&t=st=1713731300~exp=1713731900~hmac=d41bce7d62d99d8b5ab7c2cc9733b032637d76648e4767217247fe16e71fc119",
         "precio": "$500"
+      },
+      {
+        "nombre": "slime",
+        "imagen": "https://img.freepik.com/foto-gratis/bola-verde-cara-esta-casco_1340-31388.jpg?t=st=1713731219~exp=1713734819~hmac=682213f9d1cd6968dfd62bf52b9362a50a16a49401661ec0561488873107a2fc&w=826",
+        "precio": "$100"
+      },  {
+        "nombre": "slime",
+        "imagen": "https://img.freepik.com/foto-gratis/bola-verde-cara-esta-casco_1340-31388.jpg?t=st=1713731219~exp=1713734819~hmac=682213f9d1cd6968dfd62bf52b9362a50a16a49401661ec0561488873107a2fc&w=826",
+        "precio": "$100"
       }
   ]
 }
