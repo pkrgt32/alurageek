@@ -2,7 +2,7 @@ import { conexionAPI } from "./dataAPI.js";
 const lista = document.querySelector("[data-card]");
 
 function construirCard(imagen,nombre,precio) {
-    const producto = document.createElement("li");
+  const producto = document.createElement("li");
     producto.innerHTML =`<li class="card">
     <img class="card__imajen" src="${imagen}" alt="imagen ${nombre}">
     <div class="card__texto">
