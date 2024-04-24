@@ -28,6 +28,23 @@
         font-size: 2em;
         margin-bottom: 15px;
        }
+       .misProducto__formulario{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+       
+       }
+       .misProducto__contenedor__formulario{
+        display: flex;
+        align-items: center;
+        gap: 13px;
+       }
+       .misProducto__contenedor__formulario button{
+        background-color: white;
+        border: solid white;
+        width: 1px;
+       }
        .misProducto__contenedor__card{
            width: 100%;
            height: 100%;

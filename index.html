@@ -20,20 +20,31 @@
     <main>
         <section class="contenedor__prinsiparl">
             <section class="misProducto">
+                <section class="misProducto__formulario">
                     <h2 class="misProducto__titulo">MIS PRODUCTOS:</h2>
+                        <form class="misProducto__contenedor__formulario">
+                            <h2>id a eliminar:</h2>
+                            <input  type="text" placeholder="029a" delete-id required>
+                            <button  delete-button>
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill card__texto__eliminar" viewBox="0 0 16 16">
+                                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </section>
                     <ul class="misProducto__contenedor__card" data-card>
-                       
+                    
                     </ul>
             </section>
             <form class="nuevoProducto" data-formular> 
                 <h2 class="nuevoProducto__titulo">AGREGAR PRODUCTO:</h2>  
                 
                     <h3 class="nuevoProducto__nombre">Nombre de Producto</h3>
-                    <input type="text" class="nuevoProducto__input" data-nombre>
+                    <input type="text" class="nuevoProducto__input" placeholder="nombre de probucto" data-nombre required>
                     <h3 class="nuevoProducto__nombre">Precio</h3>
-                    <input type="text" class="nuevoProducto__input" data-precio>
+                    <input type="text" class="nuevoProducto__input" placeholder="555" data-precio required>
                     <h3 class="nuevoProducto__nombre">Imagen</h3>
-                    <input type="text" class="nuevoProducto__input"data-imagen>   
+                    <input type="text" class="nuevoProducto__input" placeholder="https://img.ejemplo.svg" data-imagen required>   
                 
                 <div class="nuevoProducto__contenedor__borones">
                     <input type="submit" value="Enviar" class="nuevoProducto__botones nuevoProducto__botones--color" >
@@ -54,7 +65,7 @@
 
 
     </main>
-   
+    <script src="./js/eliminarProcucto.js" type="module"></script>
     <script src="./js/crearCard.js" type="module"></script>
     <script src="./js/crearProbucto.js" type="module"></script>
 </body>

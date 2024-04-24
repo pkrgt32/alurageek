@@ -23,6 +23,7 @@
     flex-direction: column;
    
 }
+
 .card__texto__nombre{
     margin: 25px 0;
 
@@ -33,9 +34,7 @@
     justify-content: space-between;
     align-items: baseline
 }
-.card__texto__precio{
 
-}
 .card__texto__eliminar{
     width: 25px;
 }
@@ -78,14 +77,13 @@
 
     font-size: 1.2em;
 }
+
 .card__texto__foter{
     display: flex;
     justify-content: space-between;
     align-items: baseline
 }
-.card__texto__precio{
 
-}
 .card__texto__eliminar{
     width: 25px;
 }
